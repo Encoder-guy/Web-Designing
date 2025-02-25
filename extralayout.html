@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:#6B8F71;
+        }
+        #header{
+            height: 75px;
+            background-color:#1D1E18;
+            color: white;
+            padding-top: 3px;
+            margin-top: 0px;
+        }
+        #layout{
+            height: 450px;
+
+        }
+        #div1{
+            height: 350px;
+            width: 300px;
+            background-color: #1D1E18;
+            color: white;
+            position: relative;
+            top: 25px;
+            left: 50px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px  #1D1E18;
+        }
+        #div1:hover{
+            transition: 1s;
+            transform: scale(1.1);
+            box-shadow: 5px 5px 10px  #1D1E18;
+        }
+        #div2{
+            height: 350px;
+            width: 300px;
+            background-color: #1D1E18;
+            color: white;
+            position: relative;
+            bottom:325px;
+            left: 430px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px  #1D1E18;
+        }
+        #div2:hover{
+            transition: 1s;
+            transform: scale(1.1);
+            box-shadow: 5px 5px 10px  #1D1E18;
+        }
+        #div3{
+            height: 350px;
+            width: 300px;
+            background-color: #1D1E18;
+            color: white;
+            position: relative;
+            bottom: 675px;
+            left: 800px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 10px  #1D1E18;
+        }
+        #div3:hover{
+            transition: 1s;
+            transform: scale(1.1);
+            box-shadow: 5px 5px 10px  #1D1E18;
+        }
+        #butAtt{
+            border: none;
+            padding: 15px;
+            background-color: #1D1E18;
+            color: white;
+            width: 150px;
+            font-weight: 50px;
+        }
+        #butAtt:hover{
+            transition: 1s;
+            transform: scale(1.1);
+            box-shadow: 3px 3px 10px #1D1E18;
+            background-color: #6B8F71;
+            color: white;
+        }
+        #info{
+            animation-name: appear;
+            animation-duration: 3s;
+            animation-iteration-count: 1;
+            padding: 10px;
+            position: relative;
+            
+        }
+        @keyframes appear{
+            from{
+                color: #6B8F71;
+                top: 50px;
+            }
+            to{
+                color:#1D1E18;
+                top: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="header" align="center">
+        <h1>Welcome To My Modern Web Page</h1>
+    </div>
+    <div align="center" id="info">
+        <h3>Experience a Stock and Responsive Design</h3>
+    </div>
+    <div id="layout">
+        <div id="div1" align="center">
+            <img src="bg2.jpg" alt="" style="width: 295px; height: 200px;border-radius: 20px;">
+            <h2>Feature 1</h2>
+            <h3>Modern and Elegant user interface..</h3>
+        </div>
+        <div id="div2" align="center">
+            <img src="bg3.jpg" alt="" style="width: 295px; height: 200px;border-radius: 20px;">
+            <h2>Feature 2</h2>
+            <h3>Responsive layout for all Devices..</h3>
+        </div>
+        <div id="div3" align="center">
+            <img src="bg4.jpg" alt="" style="width: 295px; height: 200px;border-radius: 20px;">
+            <h2>Feature 3</h2>
+            <h3>Beautiful Animations and effects..</h3>
+        </div>
+    </div>
+    <div id="footer" align="center">
+        <button id="butAtt"><b>Get Started</b></button>
+    </div>
+</body>
+</html>

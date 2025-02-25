@@ -1,0 +1,345 @@
+#navbar{
+    height: 50px;
+    background-color: black;
+    
+}
+#logo{
+    float: left;
+    padding: 2px;
+}
+#logoDetails{
+    height: 45px;
+    background-color: black;
+    color: white;
+    width: 100px;
+    font-size: x-large;
+    font-weight: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    transition-duration: 0.5;
+    cursor: pointer;
+    border: 2px solid white;
+}
+#logoDetails:hover{
+    background-color: white;
+    color: black;
+}
+#links{
+    float: right;
+    padding: 2px;
+    width: 800px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.text{
+    color: white; 
+    text-decoration: none;
+     
+}
+.decor{
+    height: 45px;
+    background-color: black;
+    width: 150px;
+    font-size: large;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    transition-duration: 0.5;
+    cursor: pointer;
+    color: white;
+}
+
+.decor:hover{
+    background-color: rgba(255, 255, 255, 0.219);
+    color: black;
+}
+#info1{
+    border: 3px solid black;
+    font-family:'Courier New', Courier, monospace;
+    font-size: x-large;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+    }
+    #info2{
+        border: 3px solid black;
+        font-family:'Courier New', Courier, monospace;
+        font-size: x-large;
+        border-radius: 15px;
+        padding: 5px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+        }
+        #layout{
+            height: 600px;
+            background-color: black;
+            border-radius: 50px;
+            box-shadow: 5px 20px 10px rgba(0, 0, 0, 0.386);
+            }
+            #layout:hover{
+            transform: scale(1);
+            transition: 1s;
+            }
+            #diw{
+            background-color: white;
+            width: 750px;
+            padding: 40px;
+            margin-left: 40px;
+            margin-top: 10px;
+            border: 5px solid black;
+            border-radius: 50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: larger;
+            }
+            #diw:hover{
+            transform: scale(1.1);
+            transition: 1s;
+            }
+            #hol{
+            background-color: white;
+            width: 750px;
+            padding: 40px;
+            margin-left: 40px;
+            margin-top: 5px;
+            border: 5px solid black;
+            border-radius: 50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: larger;
+            }
+            #hol:hover{
+            transform: scale(1.1);
+            transition: 1s;
+            }
+            #eid{
+            background-color: white;
+            width: 750px;
+            padding: 40px;
+            margin-left: 40px;
+            margin-top: 5px;
+            border: 5px solid black;
+            border-radius: 50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: larger;
+            }
+            #eid:hover{
+            transform: scale(1.1);
+            transition: 1s;
+            }
+            #chr{
+            background-color: white;
+            width: 750px;
+            padding: 40px;
+            margin-left: 40px;
+            margin-top: 5px;
+            border: 5px solid black;
+            border-radius: 50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: larger;
+             }
+             #chr:hover{
+             transform: scale(1.1);
+             transition: 1s;
+             }
+             #imgs{
+                height: 500px;
+                background-color: darkgray;
+                border-radius: 40px;
+                box-shadow: 5px 5px 10px gray;
+                }
+             #diw1{
+                float: left;
+                height: 500px;
+                border-radius: 40px;
+                }
+                #diw2{
+                float: right;
+                border-radius: 40px;
+                padding: 5px;
+                }
+                #diw1:hover{
+                background-color: white;
+                color: black;
+                transition: 1s;
+                }
+                #diw2:hover{
+                background-color: white;
+                color: black;
+                transition: 1s;
+                }
+                #info3{
+                    border: 3px solid black;
+                    font-family:'Courier New', Courier, monospace;
+                    font-size: x-large;
+                    border-radius: 15px;
+                    padding: 5px;
+                    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+                    }
+                    #tab{
+                        height: 500px;
+                        background-color: darkgray;
+                        box-shadow: 5px 5px 15px gray;
+                        font-family:'Courier New', Courier, monospace;
+                        font-size: x-large;
+                        font-weight: 50px;
+                        }
+                     #row1 :hover{
+                        background-color: black;
+                        color: white;
+                        transition: 0.5s;
+                        transform: scale(1.1);
+                    }
+                    #row2 :hover{
+                        background-color: black;
+                        color: white;
+                        transition: 0.5s;
+                        transform: scale(1.1);
+                    }
+                    #row3 :hover{
+                        background-color: black;
+                        color: white;
+                        transition: 0.5s;
+                        transform: scale(1.1);
+                    }
+                    #row4 :hover{
+                        background-color: black;
+                        color: white;
+                        transition: 0.5s;
+                        transform: scale(1.1);
+                    }
+                    #row5 :hover{
+                        background-color: black;
+                        color: white;
+                        transition: 0.5s;
+                        transform: scale(1.1);
+                    }
+                    #info4{
+                        border: 3px solid black;
+                        font-family:'Courier New', Courier, monospace;
+                        font-size: x-large;
+                        border-radius: 15px;
+                        padding: 5px;
+                        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+                     }
+                     #layout{
+                        height: 600px;
+                        background-color: black;
+                        border-radius: 50px;
+                        box-shadow: 5px 20px 10px rgba(0, 0, 0, 0.386);
+                        }
+                        #layout:hover{
+                        transform: scale(1);
+                        transition: 1s;
+                        }
+                        #sar{
+                        background-color: white;
+                        width: 750px;
+                        padding: 40px;
+                        margin-left: 40px;
+                        margin-top: 10px;
+                        border: 5px solid black;
+                        border-radius: 50px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        font-size: larger;
+                        }
+                        #sar:hover{
+                        transform: scale(1.1);
+                        transition: 1s;
+                        }
+                        #kur{
+                        background-color: white;
+                        width: 750px;
+                        padding: 40px;
+                        margin-left: 40px;
+                        margin-top: 5px;
+                        border: 5px solid black;
+                        border-radius: 50px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        font-size: larger;
+                        }
+                        #kur:hover{
+                        transform: scale(1.1);
+                        transition: 1s;
+                        }
+                        #leh{
+                        background-color: white;
+                        width: 750px;
+                        padding: 40px;
+                        margin-left: 40px;
+                        margin-top: 5px;
+                        border: 5px solid black;
+                        border-radius: 50px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        font-size: larger;
+                        }
+                        #leh:hover{
+                        transform: scale(1.1);
+                        transition: 1s;
+                        }
+                        #dho{
+                        background-color: white;
+                        width: 750px;
+                        padding: 40px;
+                        margin-left: 40px;
+                        margin-top: 5px;
+                        border: 5px solid black;
+                        border-radius: 50px;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                        font-size: larger;
+                         }
+                         #dho:hover{
+                         transform: scale(1.1);
+                         transition: 1s;
+                         }
+                         #imgs1{
+                            height: 500px;
+                            background-color: darkgray;
+                            border-radius: 40px;
+                            box-shadow: 5px 5px 10px gray;
+                            }
+                            #attire1{
+                                float: left;
+                                height: 500px;
+                                border-radius: 40px;
+                                }
+                                #attire2{
+                                float: right;
+                                border-radius: 40px;
+                                padding: 5px;
+                                }
+                                #attire1:hover{
+                                background-color: white;
+                                color: black;
+                                transition: 1s;
+                                }
+                                #attire2:hover{
+                                background-color: white;
+                                color: black;
+                                transition: 1s;
+                                } 
+                                #footer{
+                                    background-color: black;
+                                    height: 200px;
+                                    color: white;
+                                    padding-top: 25px;
+                                    }
+                                    .fa {
+                                    padding: 20px;
+                                    font-size: 30px;
+                                    width: 50px;
+                                    text-align: center;
+                                    text-decoration: none;
+                                    margin: 5px 2px;
+                                    }
+                                    
+                                    .fa:hover {
+                                    opacity: 0.7;
+                                    }
+                                    
+                                    .fa-facebook {
+                                    background: #3B5998;
+                                    color: white;
+                                    }
+                                    
+                                    .fa-twitter {
+                                    background: #55ACEE;
+                                    color: white;
+                                    } 
+                                  
